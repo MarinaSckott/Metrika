@@ -1,0 +1,79 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #121212;
+    width: 956px;
+    height: 120px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    color: #121212;
+    font-size: 18px;
+    line-height: 24.59px;
+    margin-bottom: 30px;
+    letter-spacing: -0.03em;
+}
+
+.mainfoto {
+    background-image: url(../resources/Rectangle\ 1.png);
+    width: 1150px;
+    height: 410px;
+    margin-bottom: 155px;
+    background-repeat: no-repeat;
+
+}
+
+.whoweare {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 27.32px;
+    width: 440px;
+    height: 81px;
+    padding-left: 40px;
+    padding-top: 289px;
+    letter-spacing: -0.03em;
+}
+
+.about {
+    color: #121212;
+    width: 1048px;
+    height: 366px;
+    font-size: 45px;
+    line-height: 61.47px;
+    margin-bottom: 30px;
+    letter-spacing: -0.03em;
+}
+
+.services {
+    display: block;
+    border: 1px solid #ad1818;
+    background-color: #ad1818;
+    width: 255px;
+    height: 67px;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    line-height: 67px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.services:hover {
+    color: #ad1818;
+    background-color: #ffffff;
+    font-size: larger;
+}
