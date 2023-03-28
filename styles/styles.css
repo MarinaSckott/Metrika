@@ -5,7 +5,12 @@ body {
 
 .container {
     width: 1400px;
+}
+
+.container_internal {
+    width: 1150px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -28,9 +33,9 @@ h2 {
 }
 
 .mainfoto {
-    background-image: url(../resources/Rectangle\ 1.png);
+    background-image: url(../resources/Rectangle_1.png);
     width: 1150px;
-    height: 410px;
+    height: 500px;
     margin-bottom: 155px;
     background-repeat: no-repeat;
 
@@ -39,11 +44,11 @@ h2 {
 .whoweare {
     color: #ffffff;
     font-size: 20px;
-    line-height: 27.32px;
-    width: 440px;
+    line-height: 27px;
+    width: 430px;
     height: 81px;
     padding-left: 40px;
-    padding-top: 289px;
+    padding-top: 379px;
     letter-spacing: -0.03em;
 }
 
@@ -59,6 +64,8 @@ h2 {
 
 .services {
     display: block;
+    margin-bottom: 150px;
+    box-sizing: border-box;
     border: 1px solid #ad1818;
     background-color: #ad1818;
     width: 255px;
@@ -76,4 +83,73 @@ h2 {
     color: #ad1818;
     background-color: #ffffff;
     font-size: larger;
+}
+
+.projects_foto {
+    display: block;
+    width: 1150px;
+    height: 450px;
+    margin-bottom: 15px;
+}
+
+.projects__description {
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    margin-bottom: 15px;
+}
+
+.projects__ref {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #ad1818;
+}
+
+.projects {
+    margin-bottom: 90px;
+}
+
+.full-list {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    padding: 56px;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    margin-bottom: 150px;
+}
+
+.full-list:hover {
+    box-sizing: border-box;
+    background: #AD1818;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.section {
+    width: 100%;
+    height: 1844px;
+    background-color: #121212;
+    padding-top: 150px;
+    padding-left: 125px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24.59px;
+    margin-bottom: 34px;
+    letter-spacing: -0.03em;
 }
