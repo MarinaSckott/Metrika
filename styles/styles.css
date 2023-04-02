@@ -65,6 +65,7 @@ h2 {
 
 .services {
     display: block;
+    box-sizing: border-box;
     margin-bottom: 150px;
     border: 1px solid #ad1818;
     background-color: #ad1818;
@@ -104,6 +105,7 @@ h2 {
 .full-list {
     display: block;
     width: 100%;
+    box-sizing: border-box;
     border: 1px solid #AD1818;
     border-radius: 5px;
     padding: 56px;
