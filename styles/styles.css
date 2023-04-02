@@ -1,13 +1,19 @@
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
-    margin: auto;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+a,
+p {
+    letter-spacing: -0.03em;
 }
 
 .container {
     width: 1150px;
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
 h1 {
@@ -16,7 +22,6 @@ h1 {
     height: 120px;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
     margin-bottom: 30px;
 
 }
@@ -26,12 +31,11 @@ h2 {
     font-size: 18px;
     line-height: 24.59px;
     margin-bottom: 30px;
-    letter-spacing: -0.03em;
 }
 
 .mainfoto {
     position: relative;
-    background-image: url(../resources/Rectangle_1.png);
+    background-image: url(../resources/main.png);
     width: 1150px;
     height: 500px;
     margin-bottom: 150px;
@@ -48,7 +52,6 @@ h2 {
     height: 81px;
     bottom: 40px;
     left: 40px;
-    letter-spacing: -0.03em;
 }
 
 .about {
@@ -58,20 +61,17 @@ h2 {
     font-size: 45px;
     line-height: 61.47px;
     margin-bottom: 30px;
-    letter-spacing: -0.03em;
 }
 
 .services {
     display: block;
     margin-bottom: 150px;
-    box-sizing: border-box;
     border: 1px solid #ad1818;
     background-color: #ad1818;
     width: 255px;
     height: 67px;
     border-radius: 5px;
     font-size: 20px;
-    letter-spacing: -0.03em;
     text-align: center;
     line-height: 67px;
     text-decoration: none;
@@ -81,22 +81,20 @@ h2 {
 .services:hover {
     color: #ad1818;
     background-color: #ffffff;
-    font-size: larger;
 }
 
 
 .projects__description {
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
     margin-bottom: 15px;
 }
 
 .projects__ref {
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     color: #ad1818;
+    text-decoration: none;
 }
 
 .projects {
@@ -105,7 +103,6 @@ h2 {
 
 .full-list {
     display: block;
-    box-sizing: border-box;
     width: 100%;
     height: 153px;
     border: 1px solid #AD1818;
@@ -114,31 +111,26 @@ h2 {
     font-size: 30px;
     line-height: 41px;
     text-align: center;
-    letter-spacing: -0.03em;
     color: #AD1818;
     margin-bottom: 150px;
 }
 
 .full-list:hover {
-    box-sizing: border-box;
     background: #AD1818;
     border: 1px solid #AD1818;
     border-radius: 5px;
     font-size: 30px;
     line-height: 41px;
     text-align: center;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
 }
 
 .section {
-    box-sizing: border-box;
     width: 100%;
     height: 1844px;
     margin: auto;
     background-color: #121212;
     padding-top: 150px;
-    padding-left: 125px;
     padding-bottom: 150px;
 }
 
@@ -149,7 +141,6 @@ h2 {
     font-size: 18px;
     line-height: 24.59px;
     margin-bottom: 34px;
-    letter-spacing: -0.03em;
 }
 
 .offers {
@@ -166,9 +157,57 @@ h2 {
     color: #ffffff;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
 }
 
 .offers_description:nth-last-child(1) {
     margin-bottom: 0px;
+}
+
+.nav-section {
+    margin-bottom: 70px;
+}
+
+.nav-container {
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 33px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+.logo {
+    display: block;
+    width: 127px;
+    height: 21.42px;
+    color: #121212;
+}
+
+.nav {
+    display: inline-block;
+    float: right;
+    height: 25px;
+}
+
+.nav__link {
+    display: inline-block;
+    color: #121212;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    margin-right: 60px;
+
+
+}
+
+.nav__link:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.nav__link:nth-last-child(1) {
+    margin-right: 0;
 }
