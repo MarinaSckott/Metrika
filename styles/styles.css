@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
@@ -11,29 +14,28 @@ p {
     letter-spacing: -0.03em;
 }
 
-.container {
+.container,.project-list, .contacts{
     width: 1150px;
     margin: 0 auto;
 }
 
 h1 {
-    color: #121212;
+    margin-bottom: 30px;
     width: 956px;
     height: 120px;
     font-size: 60px;
     line-height: 60px;
-    margin-bottom: 30px;
-
+    color: #121212;
 }
 
 h2 {
+    margin-bottom: 30px;
     color: #121212;
     font-size: 18px;
     line-height: 24.59px;
-    margin-bottom: 30px;
 }
 
-.mainfoto {
+.mainphoto {
     position: relative;
     background-image: url(../resources/main.png);
     width: 1150px;
@@ -63,7 +65,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-.services {
+.services_link {
     display: block;
     box-sizing: border-box;
     margin-bottom: 150px;
@@ -79,7 +81,7 @@ h2 {
     color: #ffffff;
 }
 
-.services:hover {
+.services_link:hover {
     color: #ad1818;
     background-color: #ffffff;
 }
@@ -114,6 +116,7 @@ h2 {
     text-align: center;
     color: #AD1818;
     margin-bottom: 150px;
+    cursor: pointer;
 }
 
 .full-list:hover {
@@ -126,16 +129,15 @@ h2 {
     color: #FFFFFF;
 }
 
-.section {
+.service_list {
     width: 100%;
-    height: 1844px;
     margin: auto;
     background-color: #121212;
     padding-top: 150px;
     padding-bottom: 150px;
 }
 
-.services_1 {
+.services {
     color: #ffffff;
     width: 1150px;
     margin: 0 auto;
@@ -188,7 +190,6 @@ h2 {
 }
 
 .nav {
-    display: inline-block;
     float: right;
     height: 25px;
 }
@@ -211,4 +212,42 @@ h2 {
 
 .nav__link:nth-last-child(1) {
     margin-right: 0;
+}
+.fullscreen{
+    position: relative;
+    height: 717px;
+    background-image: url('../resources/fullscreen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+.landscape{
+    position: absolute;
+    bottom: 60px;
+    left: 125px;
+    width: 443px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.contact {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 186px;
+
+}
+.contact:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%; 
+    bottom: 35px; 
+    background-image: url('../resources/contact_phone.png');
+
 }
