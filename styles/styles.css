@@ -34,7 +34,7 @@ h2 {
     margin-bottom: 30px;
     color: #121212;
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 25px;
 }
 
 .mainphoto {
@@ -63,7 +63,7 @@ h2 {
     width: 1048px;
     height: 366px;
     font-size: 45px;
-    line-height: 61.47px;
+    line-height: 62px;
     margin-bottom: 30px;
 }
 
@@ -185,7 +185,7 @@ offers:nth-last-child(1){
 .logo {
     display: block;
     width: 127px;
-    height: 21.42px;
+    height: 21px;
     color: #121212;
 }
 
@@ -240,6 +240,7 @@ offers:nth-last-child(1){
     position: relative;
     margin: 0 auto;
       margin-bottom: 30px;
+      line-height: 21px;
 
 }
 .contact:before {
@@ -273,7 +274,7 @@ margin-bottom: 30px;
     text-decoration: none;
 }
 .email{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 .line {
     width: 406px;
