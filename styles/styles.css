@@ -15,9 +15,10 @@ p {
     letter-spacing: -0.03em;
 }
 
-.container,.project-list, .contacts{
+.container,.project_list, .contacts{
     width: 1150px;
     margin: 0 auto;
+margin-bottom: 150px;
 }
 
 h1 {
@@ -69,7 +70,6 @@ h2 {
 .services_link {
     display: block;
     box-sizing: border-box;
-    margin-bottom: 150px;
     border: 1px solid #ad1818;
     background-color: #ad1818;
     width: 255px;
@@ -89,9 +89,10 @@ h2 {
 
 
 .projects__description {
+    margin-bottom: 15px;
+    margin-top: 15px;
     font-size: 30px;
     line-height: 41px;
-    margin-bottom: 15px;
 }
 
 .projects__ref {
@@ -102,10 +103,10 @@ h2 {
 }
 
 .projects {
-    margin-bottom: 90px;
+    margin-bottom: 88px;
 }
 
-.full-list {
+.full_list {
     display: block;
     width: 100%;
     box-sizing: border-box;
@@ -113,14 +114,13 @@ h2 {
     border-radius: 5px;
     padding: 56px;
     font-size: 30px;
-    line-height: 41px;
+    line-height: 40px;
     text-align: center;
     color: #AD1818;
-    margin-bottom: 150px;
     cursor: pointer;
 }
 
-.full-list:hover {
+.full_list:hover {
     background: #AD1818;
     border: 1px solid #AD1818;
     border-radius: 5px;
@@ -133,7 +133,7 @@ h2 {
 .service_list {
     background-color: #121212;
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 89px;
 }
 
 .services {
@@ -141,7 +141,7 @@ h2 {
     width: 1150px;
     margin: 0 auto;
     font-size: 18px;
-    line-height: 24.59px;
+    line-height: 25px;
     margin-bottom: 34px;
 }
 
@@ -150,32 +150,35 @@ h2 {
     margin: 0 auto;
     margin-bottom: 60px;
 }
+offers:nth-last-child(1){
+    margin-bottom: 0;
+}
 
-.offers_foto {
+.offers_photo {
     margin-bottom: 15px;
 }
 
 .offers_description {
     color: #ffffff;
     font-size: 30px;
-    line-height: 41px;
+    line-height: 39px;
 }
 
 .offers_description:nth-last-child(1) {
     margin-bottom: 0px;
 }
 
-.nav-section {
+.nav_section {
     margin-bottom: 70px;
 }
 
-.nav-container {
+.nav_container {
         padding-top: 33px;
     padding-left: 125px;
     padding-right: 125px;
 }
 
-.logo-link {
+.logo_link {
     display: inline-block;
 }
 
@@ -197,7 +200,7 @@ h2 {
     font-size: 18px;
     line-height: 25px;
     text-decoration: none;
-    margin-right: 60px;
+    margin-right: 58px;
 
 
 }
@@ -221,16 +224,16 @@ h2 {
 }
 .landscape{
     position: absolute;
-    bottom: 60px;
+    bottom: 58px;
     left: 125px;
     width: 443px;
     font-size: 30px;
-    line-height: 41px;
+    line-height: 40px;
     color: #FFFFFF;
 }
 .contacts{
     margin-bottom: 150px;
-    padding-top: 186px;
+    padding-top: 191px;
 }
 
 .contact {
@@ -284,7 +287,7 @@ margin-bottom: 30px;
     padding-top: 60px;
 }
 .footer_nav{
-    width: 458px;
+    width: 457px;
     margin: 0 auto;
 }
 .footer__link{
@@ -292,7 +295,7 @@ margin-bottom: 30px;
 line-height: 25px;
 text-decoration: none;
 color: #FFFFFF;
-margin-right: 55px;
+margin-right: 52px;
 }
 .signature{
     margin-top: 87px;
