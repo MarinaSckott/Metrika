@@ -4,6 +4,8 @@ html{
 body {
     width: 1400px;
     font-family: 'Manrope', sans-serif;
+    margin: 0 auto;
+    
     font-weight: 400;
     box-sizing: border-box;
 }
@@ -15,7 +17,7 @@ p {
     letter-spacing: -0.03em;
 }
 
-.container,.project_list, .contacts{
+.start,.project_list, .contacts{
     width: 1150px;
     margin: 0 auto;
 margin-bottom: 150px;
@@ -233,7 +235,7 @@ offers:nth-last-child(1){
 }
 .contacts{
     margin-bottom: 150px;
-    padding-top: 191px;
+    padding-top: 185px;
 }
 
 .contact {
@@ -274,7 +276,7 @@ margin-bottom: 30px;
     text-decoration: none;
 }
 .email{
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 .line {
     width: 406px;
