@@ -5,7 +5,6 @@ body {
     width: 1400px;
     font-family: 'Manrope', sans-serif;
     margin: 0 auto;
-    
     font-weight: 400;
     box-sizing: border-box;
 }
@@ -19,7 +18,7 @@ p {
 
 .start,.project_list, .contacts{
     width: 1150px;
-    margin: 0 auto;
+    margin: 0 auto; 
 margin-bottom: 150px;
 }
 
@@ -132,16 +131,15 @@ h2 {
 }
 
 .service_list {
+    margin: 0 auto;
     background-color: #121212;
-    padding-top: 150px;
-    padding-bottom: 89px;
+    padding: 150px 125px 90px 125px;
 }
 li{
     margin-bottom: 60px;
 }
 .services {
     color: #ffffff;
-    width: 1150px;
     margin: 0 auto;
     font-size: 18px;
     line-height: 25px;
@@ -236,7 +234,7 @@ offers:nth-last-child(1){
 }
 .contacts{
     margin-bottom: 150px;
-    padding-top: 185px;
+    padding-top: 190px;
 }
 
 .contact {
@@ -268,6 +266,7 @@ line-height: 60px;
 color: #121212;
 text-decoration: none;
 margin-bottom: 30px;
+letter-spacing: -0.01em;
 }
 .email_link {
     font-size: 60px;
