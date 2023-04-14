@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    width: 1400px;
+    width: 100%;
     font-family: 'Manrope', sans-serif;
     margin: 0 auto;
     font-weight: 400;
@@ -16,7 +16,7 @@ p {
     letter-spacing: -0.03em;
 }
 
-.start,.project_list, .contacts{
+.nav_section,.start,.project_list, .contacts{
     width: 1150px;
     margin: 0 auto; 
 margin-bottom: 150px;
@@ -131,9 +131,12 @@ h2 {
 }
 
 .service_list {
-    margin: 0 auto;
     background-color: #121212;
-    padding: 150px 125px 90px 125px;
+}
+.service_container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 150px 0 90px 0;
 }
 li{
     margin-bottom: 60px;
@@ -147,8 +150,6 @@ li{
 }
 
 .offers {
-    width: 1150px;
-    margin: 0 auto;
     margin-bottom: 60px;
 }
 offers:nth-last-child(1){
@@ -156,6 +157,7 @@ offers:nth-last-child(1){
 }
 
 .offers_photo {
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -175,8 +177,6 @@ offers:nth-last-child(1){
 
 .nav_container {
         padding-top: 33px;
-    padding-left: 125px;
-    padding-right: 125px;
 }
 
 .logo_link {
@@ -221,17 +221,16 @@ offers:nth-last-child(1){
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-
 }
 .landscape{
     position: absolute;
     bottom: 58px;
     left: 125px;
-    width: 443px;
     font-size: 30px;
     line-height: 40px;
     color: #FFFFFF;
 }
+
 .contacts{
     margin-bottom: 150px;
     padding-top: 190px;
