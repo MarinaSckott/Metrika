@@ -232,7 +232,7 @@ offers:nth-last-child(1){
 }
 
 .contacts{
-    margin-bottom: 150px;
+    margin-bottom: 162px;
     padding-top: 190px;
 }
 
@@ -273,14 +273,10 @@ letter-spacing: -0.01em;
     color: #121212;
     opacity: 0.5;
     text-decoration: none;
+    border-bottom:2px solid #121212;
 }
 .email{
-    margin-bottom: 12px;
-}
-.line {
-    width: 406px;
-    border-bottom: 2px solid #121212;
-    opacity: 0.5;
+    margin-bottom: 20px;
 }
 .footer_container{
     box-sizing: border-box;
