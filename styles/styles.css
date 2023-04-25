@@ -15,7 +15,10 @@ a,
 p {
     letter-spacing: -0.03em;
 }
-
+/* main{
+    width:1400px;
+    margin: 0 auto;
+} */
 .nav_section,.start,.project_list, .contacts, .feedback{
     width: 1150px;
     margin: 0 auto; 
@@ -24,7 +27,7 @@ margin-bottom: 150px;
 
 h1 {
     margin-bottom: 30px;
-    /* width: 956px; */
+    width: 960px;
     height: 120px;
     font-size: 60px;
     line-height: 60px;
@@ -442,8 +445,9 @@ color: #000000
     
     h1{
         margin-bottom: 25px;
-        width:348px;
-        height: 95px;
+        width: 100%;
+         /* width:348px; */
+        /* height: 95px; */
         font-size: 30px;
         line-height: 32px;
     }
@@ -511,47 +515,35 @@ line-height: 19px;
 }
 
    .offers_photo {
+    margin-bottom: 10px;
     height: 240px;
     width: 100%;
-    margin-bottom: 10px;
+    object-fit: cover;
 }
 .service_item {
-    position: relative;
+    /* position: relative; */
     width: 100%;
 margin-bottom: 60x;
 }
 .service_price{
-    position: absolute;
     padding: 5px 24px;
     left:23px;
     top:24px;
-    border: 1px solid #AD1818;
-    background: #AD1818;
     border-radius: 3px;
     font-size: 14px;
     line-height: 19px;
-    color: #FFFFFF;
 }
 
 .offers_description {
-    color: #ffffff;
-    /* width: 350px; */
     font-size: 18px;
     line-height: 25px;
 }
 .order{
-    display: block;
-    width: 100%;
-    height: 153px;
-    padding: 56px;
-    border: 1px solid #AD1818;
-    background: #AD1818;
-    border-radius: 5px;
+    height: 100px;
+    padding: 36px;
     font-size: 30px;
-    line-height: 41px;
-    text-align: center;
-    text-decoration: none;
-    color: #FFFFFF;
+    line-height: 22px;
+    
 }
 .feedback_wrapper{
     margin: 80px 0;
