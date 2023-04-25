@@ -203,6 +203,10 @@ h2 {
     text-decoration: none;
     color: #FFFFFF;
 }
+.order:hover {
+    color: #ad1818;
+    background-color: #ffffff;
+}
 
 .nav_section {
     margin-bottom: 70px;
