@@ -16,7 +16,7 @@ p {
     letter-spacing: -0.03em;
 }
 
-.nav_section,.start,.project_list, .contacts{
+.nav_section,.start,.project_list, .contacts, .feedback{
     width: 1150px;
     margin: 0 auto; 
 margin-bottom: 150px;
@@ -139,37 +139,66 @@ h2 {
     margin: 0 auto;
     padding: 150px 0 90px 0;
 }
-li{
-    margin-bottom: 60px;
-}
+
 .services {
     color: #ffffff;
     margin: 0 auto;
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
 }
 
 .offers {
-    margin-bottom: 60px;
-}
-offers:nth-last-child(1){
-    margin-bottom: 0;
-}
+    margin-bottom: 104px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    row-gap: 81px;
+   }
+
 
 .offers_photo {
+    height: 388px;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+   }
+.service_item {
+    position: relative;
+    width: calc(50% - 5px);
+}
+.service_price{
+    position: absolute;
+    padding: 5px 20px;
+    left:30px;
+    top:32px;
+    border: 1px solid #AD1818;
+    background: #AD1818;
+    border-radius: 5px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
 }
 
 .offers_description {
     color: #ffffff;
+    width: 350px;
     font-size: 30px;
-    line-height: 39px;
+    line-height: 41px;
 }
-
-.offers_description:nth-last-child(1) {
-    margin-bottom: 0px;
+.order{
+    display: block;
+    width: 100%;
+    height: 153px;
+    padding: 56px;
+    border: 1px solid #AD1818;
+    background: #AD1818;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .nav_section {
@@ -304,9 +333,36 @@ line-height: 27px;
 color: #FFFFFF;
 opacity: 0.5;
 }
-
+.feedback_wrapper{
+    margin: 150px 0;
+}
+.feedback_row{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feedback_column{
+    width: calc(50% - 25px);
+    margin-bottom: 80px;
+}
+.feedback_column_wide{
+    width: 75%;
+}
+.feedback_title{
+    margin-bottom: 14px;
+    font-size: 45px;
+line-height: 61px;
+color: #000000
+}
+.feedback_story{
+    font-size: 22px;
+line-height: 30px;
+color: #000000
+}
 @media (max-width: 1199px) {
-   .start, .project_list{
+   .start, .project_list, .feedback{
     padding-left: 17px;
     padding-right: 17px;
     margin-bottom: 120px;
@@ -333,7 +389,11 @@ opacity: 0.5;
             font-size: 35px;
             line-height: 48px;
         }
-        
+        .service_container{
+            max-width: 100%;
+            padding: 80px 21px 120px 21px;
+            margin: 0 auto;
+        }    
     .project_photo {
         width:100%;
     }
@@ -346,6 +406,28 @@ opacity: 0.5;
 
 .project_element {
     margin-bottom: 80px;
+}
+
+.offers_photo {
+    height: 315px;
+    width: 100%;
+    margin-bottom: 15px;
+   }
+.feedback_wrapper{
+    margin: 120px 0;
+}
+
+
+.feedback_title{
+    margin-bottom: 25px;
+    font-size: 35px;
+line-height: 48px;
+color: #000000
+}
+.feedback_story{
+    font-size: 20px;
+line-height: 27px;
+color: #000000
 }
 }
 @media (max-width: 820px) {
@@ -417,5 +499,83 @@ opacity: 0.5;
     font-size: 22px;
 line-height: 30px;
 padding: 37px;
+}
+.service_container{
+    max-width: 100%;
+    padding: 80px 21px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 14px;
+line-height: 19px;
+}
+
+   .offers_photo {
+    height: 240px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.service_item {
+    position: relative;
+    width: 100%;
+margin-bottom: 60x;
+}
+.service_price{
+    position: absolute;
+    padding: 5px 24px;
+    left:23px;
+    top:24px;
+    border: 1px solid #AD1818;
+    background: #AD1818;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.offers_description {
+    color: #ffffff;
+    /* width: 350px; */
+    font-size: 18px;
+    line-height: 25px;
+}
+.order{
+    display: block;
+    width: 100%;
+    height: 153px;
+    padding: 56px;
+    border: 1px solid #AD1818;
+    background: #AD1818;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.feedback_wrapper{
+    margin: 80px 0;
+}
+.feedback_row{
+    margin-top: 22px;
+}
+
+.feedback_column{
+    width: 100%;
+}
+.feedback_column_wide{
+    width: 100%;
+}
+
+.feedback_title{
+    margin-bottom: 10px;
+    font-size: 25px;
+line-height: 34px;
+color: #000000
+}
+.feedback_story{
+    font-size: 16px;
+line-height: 22px;
+color: #000000
 }
 }
