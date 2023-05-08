@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metrika</title>
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="icon" href="./resources/icon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
@@ -32,9 +33,36 @@
                         <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
                     </li>
                 </ul>
-                <div class="js-burger-btn burger-btn"></div>
+                 <div class="js-burger-btn burger-btn"></div>
+                <div class="js-burger burger">
+                    <div class="js-burger__content burger__content">
+                        <div class="burger_inner">
+                            <a class="burger_logo_link" href="#">
+                                <img class="logo burger_logo" src="../Metrika/resources/Logo.png" alt="Логотип студии Метрика">
+                            </a>
+                                <ul class="burger_nav">
+                                    <li>
+                                        <a href="#about" class="burger_nav__link">О НАС</a>
+                                    </li>
+                                    <li>
+                                        <a href="#projects" class="burger_nav__link">ПРОЕКТЫ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#services" class="burger_nav__link">УСЛУГИ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contacts" class="burger_nav__link">КОНТАКТЫ</a>
+                                    </li>
+                                </ul>
+                        <div class="burger_contacts">
+                            <p class="connect"> для связи:</p>
+                            <a class="burger_number_link" href="tel:+79358954535">+7 935 895-45-35</a>
+                            <a class="burger_email_link" href="https://t.me/Marinaklimich">@Marinaklimich</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-        
     </header>
     <main>
         <section class="start">
@@ -59,17 +87,47 @@
 
                 <ul class="projects">
                     <li class="project_element">
-                    <img class="project_photo" src="../Metrika/resources/pravoberezhnyi.png" alt="ЖК ПРАВОБЕРЕЖНЫЙ — 112 м²">
+                        <picture>
+                            <source
+                            media="(max-width: 500px)"
+                            srcset="./resources/pravoberezhnyi_mobile.png"
+                            />
+                            <source
+                            media="(max-width: 1199px)"
+                            srcset="./resources/pravoberezhnyi_tablet.png"
+                            />
+                    <img class="project_photo" src="./resources/pravoberezhnyi.png" alt="ЖК ПРАВОБЕРЕЖНЫЙ — 112 м²">
+                </picture>
                     <p class="projects__description">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
                     <a class="projects__ref" href="#">Подробнее →</a>
                 </li>
                 <li class="project_element">
-                    <img class="project_photo" src="../Metrika/resources/norvezhskyi.png" alt="ЖК НОРВЕЖСКИЙ ПАРК — 75 М²">
+                    <picture>
+                        <source
+                        media="(max-width: 500px)"
+                        srcset="./resources/norvezhskyi_mobile.png"
+                        />
+                        <source
+                        media="(max-width: 1199px)"
+                        srcset="./resources/norvezhskyi_tablet.png"
+                        />
+                    <img class="project_photo" src="./resources/norvezhskyi.png" alt="ЖК НОРВЕЖСКИЙ ПАРК — 75 М²">
+                </picture>
                     <p class="projects__description">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
                     <a class="projects__ref" href="#">Подробнее →</a>
                 </li>
                 <li class="project_element">
-                    <img class="project_photo" src="../Metrika/resources/sosnovskie_ozera.png" alt="ЖК СОСНОВСКИЕ ОЗЕРА — 94 М²">
+                    <picture>
+                        <source
+                        media="(max-width: 500px)"
+                        srcset="./resources/sosnovskie_ozera_mobile.png"
+                        />
+                        <source
+                        media="(max-width: 1199px)"
+                        srcset="./resources/sosnovskie_ozera_tablet.png"
+                        />
+                        <img class="project_photo" src="./resources/sosnovskie_ozera.png" alt="ЖК СОСНОВСКИЕ ОЗЕРА — 94 М²">
+                    </picture>
                     <p class="projects__description">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
                     <a class="projects__ref" href="#">Подробнее →</a>
             </li>
@@ -219,40 +277,11 @@
                 </div>
                 <div class="email_wrapper">
                     <p class="email">
-                        <a class="email_link" href="mailto:hello@mail.com">hello@mail.com</a>
+                        <a class="email_link" href="https://t.me/Marinaklimich">@Marinaklimich</a>
                     </p>
                 </div>
             </div>
         </section>
-        <div class="js-burger burger">
-            <div class="js-burger__content burger_content">
-                <button class="burger-btn_open"></button>
-                <div class="burger_nav_container">
-                    <a class="burger_logo_link" href="#">
-                        <img class="logo burger_logo" src="../Metrika/resources/Logo.png" alt="Логотип студии Метрика">
-                    </a>
-                        <ul class="burger_nav">
-                            <li class="burger_nav__link">
-                                <a href="#about" class="burger_nav__link">О НАС</a>
-                            </li>
-                            <li class="burger_nav__link">
-                                <a href="#projects" class="burger_nav__link">ПРОЕКТЫ</a>
-                            </li>
-                            <li class="burger_nav__link">
-                                <a href="#services" class="burger_nav__link">УСЛУГИ</a>
-                            </li>
-                            <li class="burger_nav__link">
-                                <a href="#contacts" class="burger_nav__link">КОНТАКТЫ</a>
-                            </li>
-                        </ul>
-                </div>
-                <div class="burger_contcts">
-                    <p class="connect"> для связи:</p>
-                    <a class="burger_number_link" href="tel:+79358954535">+7 935 895-45-35</a>
-                    <a class="burger_email_link" href="mailto:hello@mail.com">hello@mail.com</a>
-                </div>
-            </div>
-        </div>
     </main>
     <footer>
 <section class="footer_container">
