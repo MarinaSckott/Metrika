@@ -90,3 +90,100 @@ height: 100%;
     border: none;
     background: url(../resources/Vector_next.png) right center no-repeat;
 }
+@media (max-width: 1199px) {
+
+     .gallery_text_container{
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-bottom: 120px;
+        width: 100%;
+        box-sizing: border-box;
+        }
+        .gallery_container{
+            margin-bottom: 120px;
+            width:100%;
+            height: 536px;
+        }
+        .gallery_slides{
+            position: relative;
+            height: 536px;
+        }
+        .gallery_text_wrapper{
+            top: 80px;
+        }
+        
+        .gallery_text{
+            font-size: 20px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+        
+        .fullscreen_title_wrapper{
+            bottom: 60px;
+        }
+        .fullscreen_title_container{
+            left:50px;
+            width: calc(100% - 50px);
+            margin: 0 auto;
+        }
+        .fullscreen_title{
+            width: 350px;
+            font-size: 25px;
+            line-height: 34px;
+        }
+        
+        .gallery_controls_wrapper{
+            bottom: 155px;
+        }
+        .gallery_controls_container{
+            width: calc(100% - 50px);
+            margin: 0 auto;
+        } 
+
+@media (max-width: 820px){
+
+    .gallery_container{
+        margin-bottom: 80px;
+        width:100%;
+        height: 408px;
+    }
+    .gallery_slides{
+        position: relative;
+        height: 408px;
+    }
+    .gallery_text_container{
+        left:13px;
+    }
+    .gallery_text_wrapper{
+        top: 61px;
+    }
+    
+    .gallery_text{
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+    
+    .fullscreen_title_wrapper{
+        bottom: 60px;
+    }
+    .fullscreen_title_container{
+        left:13px;
+        width: calc(100% - 50px);
+        margin: 0 auto;
+    }
+    .fullscreen_title{
+        width: 280px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    
+    .gallery_contols{
+        width: calc(100% -30px);
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+}
+
