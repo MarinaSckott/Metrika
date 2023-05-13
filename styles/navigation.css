@@ -1,0 +1,31 @@
+
+.nav_container {
+    display: flex;
+    padding-top: 33px;
+    justify-content: space-between; 
+}
+
+.logo {
+    width: 127px;
+    height: 21px;
+    color: #121212;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 61px;
+    height: 25px;
+}
+
+.nav__link {
+    color: #121212;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.nav__link:hover,.footer__link:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}

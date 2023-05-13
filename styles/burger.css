@@ -1,0 +1,120 @@
+.burger-btn, .burger{
+    display: none;
+}
+
+@media (max-width: 1199px){
+.burger{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: all 0.7s ease;
+}
+.burger_open, .burger__content{
+    opacity: 1;
+    visibility: visible; 
+    transform: translateX(0%);
+}
+
+.burger__content{
+    position: relative;
+    padding-left: 30px;
+    padding-top: 80px;
+    width: 80%;
+height: 100%;
+background-color: #FFFFFF;
+overflow-y: auto;
+}
+.burger-btn{
+    display: block;
+    position: relative;
+    right:0;
+    top: -4px;;
+    cursor: pointer;
+    z-index: 105;
+    border: none;
+    background: none;
+}
+.burger-btn::after,
+.burger-btn::before
+{   content: "";
+    position: absolute;
+    right:0;
+    top:0;
+    height: 2px;
+    width: 50px;
+    background-color: black;
+}
+.burger-btn::after{
+    top:6px;
+    width: 31px;
+}
+
+.burger-btn_open{
+    top:27px;
+    right: 27px;
+    width: 20px;
+    height: 20px;
+    background: url(../resources/close_btn.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.burger-btn_open::after,
+.burger-btn_open::before
+{  display: none;
+}
+
+.burger_logo {
+width: 156px;
+height: 26px;
+color: #121212;
+margin-bottom: 50px;
+}
+
+.burger_nav {
+display: flex;
+flex-direction: column;
+gap: 50px;
+margin-bottom: 90px;
+}
+
+.burger_nav__link {
+color: #121212;
+font-size: 25px;
+line-height: 34px;
+text-decoration: none;
+} 
+
+.burger_contacts{
+display: flex;
+flex-direction: column;
+} 
+
+.connect{
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+opacity: 0.5;
+}
+.burger_number_link{
+font-size: 20px;
+line-height: 46px;
+text-decoration: none;
+color: #121212;
+}
+.burger_email_link{
+font-size: 20px;
+line-height: 60px;
+text-decoration: none;
+color: #121212;
+} 
+} 
