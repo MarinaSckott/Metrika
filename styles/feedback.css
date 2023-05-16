@@ -64,6 +64,7 @@ color: #000000
 }
 .feedback_row{
     margin-top: 22px;
+    gap: 35px;
 }
 
 .feedback_column{
