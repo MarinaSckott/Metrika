@@ -10,8 +10,6 @@
 .services {
     color: #ffffff;
     margin: 0 auto;
-    font-size: 18px;
-    line-height: 25px;
     margin-bottom: 30px;
 }
 
@@ -93,6 +91,9 @@
         padding: 80px 21px;
         margin: 0 auto;
     }
+    .services {
+        margin-bottom: 20px;
+    }
     
        .offers_photo {
         margin-bottom: 10px;
@@ -116,6 +117,10 @@
     .offers_description {
         font-size: 18px;
         line-height: 25px;
+    }
+    .offers {
+        row-gap: 58px;
+        margin-bottom: 56px;
     }
     .order{
         height: 100px;
