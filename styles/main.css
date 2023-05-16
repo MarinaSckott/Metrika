@@ -160,13 +160,20 @@ h2 {
 
 
 @media (max-width: 1199px) {
-   .start,.nav_section, .project_list, .contacts,.contact_container,.gallery_text_container, .feedback{
+   .start,.nav_section, .project_list, .contact_container, .contacts,.gallery_text_container, .feedback{
     padding-left: 17px;
     padding-right: 17px;
     margin-bottom: 120px;
     width:100%;
     box-sizing: border-box;
     }
+    .project_list{
+        margin-bottom: 100px;
+    }
+.contact_container{
+        padding-left: 0;
+        padding-right: 0;
+        }
 
     h1{
         font-size: 50px;
@@ -181,9 +188,7 @@ h2 {
     .nav_section{
         margin-bottom: 73px;
     }
-    .project_list{
-        margin-bottom: 100px;
-    }
+   
 
    
     .mainphoto {
@@ -230,8 +235,11 @@ h2 {
         line-height: 19px;
     }
     .nav_section {
-        margin-bottom: 61px;
+        margin-bottom: 57px;
     } 
+    .contact_container, .contacts{
+        margin-bottom: 80px;
+    }
     .logo {
         width: 96px;
         height: 16px;
@@ -245,7 +253,7 @@ h2 {
     .whoweare{
         width: 260px;
         height: 88px;
-        left: 28px;
+        left: 15px;
         bottom: 15px;
         font-size: 16px;
         line-height: 22px;
@@ -280,14 +288,14 @@ padding: 37px;
 .order{
     height: 100px;
     padding: 36px;
-    font-size: 30px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 30px;
     
 }
 }
 
 @media (max-width: 420px){
 .mainphoto {
-    background-image: url(../resources/mainphoto_mobile.png);   
+    background-image: url(../resources/mainphoto_mobile.png)   
     }
 }
