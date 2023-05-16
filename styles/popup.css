@@ -19,6 +19,7 @@
     visibility: visible;
     }
 .popup__content{
+    position: relative;
     width: 777px;
     max-height: 100%;
     overflow-y: auto;
@@ -28,11 +29,11 @@
 .popup__content_inner{
     width: 100%;
     height: 100%;
-    padding: 74px 79px 86px 55px;
+    padding: 94px 79px 86px 53px;
 }
 
-.input{
-    margin-bottom: 50px;
+input{
+    margin-bottom: 55px;
     font-family: 'Manrope', sans-serif;
     border: none;
     border-bottom: 1px solid #000000;
@@ -44,15 +45,12 @@
     outline: none;
 }
 .popup_btn_wrapper{
-    margin-bottom: 22px;
-    width: 100%;
+    position: absolute;
+    right:44px;
+    top: 42px;
     display: block;
-    float: right;
-    /* text-align: right;  */
 }
 .popup__close-btn{
-    display: block;
-    float: right;
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -67,13 +65,13 @@
     line-height: 61px;
     }
     .popup_text{
-        margin-bottom: 60px;
+    margin-bottom: 62px;
     text-align: center;
     font-size: 18px;
     line-height: 25px;
     }
 .popup_send{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
     height: 67px;
     box-sizing: border-box;
@@ -90,6 +88,17 @@
     @media (max-width: 820px){
         .popup__content{
             width: calc(100% - 25px)
+        }
+        .popup__content_inner{
+            padding: 80px 24px 80px 16px;
+        }
+        .popup_btn_wrapper{
+            right:35px;
+            top: 46px;
+        }
+        .popup__close-btn{
+            width: 18px;
+            height: 18px;
         }
         .popup__title{
             margin-bottom: 11px;
@@ -110,12 +119,14 @@
         .popup__content_inner{
             padding: 46px 24px 80px 16px;
         }
-        
-        .popup_btn_wrapper{
-            margin-bottom: 16px;
-        }
-        .popup__close-btn{
-            width: 20px;
-            height: 20px;
-        }
+        .popup_send{
+            margin-top: 20px;
+            width: 100%;
+            height: 67px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 27px;
+            text-decoration: none;
+            color: #ffffff;
+            }
     }
