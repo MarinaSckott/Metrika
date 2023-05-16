@@ -26,3 +26,23 @@ line-height: 27px;
 color: #FFFFFF;
 opacity: 0.5;
 }
+@media (max-width: 820px){
+    .footer_container{
+        height: 131px;
+        padding-top: 30px;
+    }
+    .footer_nav_wrapper{
+        width: 309px;
+        margin: 0 auto;
+    }
+    .footer__link{
+        font-size: 12px;
+    line-height: 16px;
+    }
+    .signature{
+        margin-top: 41px;
+        font-size: 13px;
+    line-height: 18px;
+
+    }
+    }
