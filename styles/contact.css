@@ -31,18 +31,20 @@
     }
     .number_link:hover{
         opacity: 0.5;
+        border-bottom:2px solid #121212;
     }
     .email_link {
         font-size: 60px;
         line-height: 60px;
         color: #121212;
         text-decoration: none;
-        border-bottom:2px solid #121212;
         text-align: start;
     }
-    .email{
-        transform: translateY(-10px);
+    .email_link:hover{
+        opacity: 0.5;
+        border-bottom:2px solid #121212;
     }
+
     .email_wrapper{
         position: relative;
     }
