@@ -16,9 +16,6 @@
 .feedback_column:last-child:nth-child(2n + 1){
     width: 75%;
 }
-/* .feedback_column_wide{
-    width: 75%;
-} */
 .feedback_title{
     margin-bottom: 14px;
     font-size: 45px;
@@ -39,11 +36,6 @@ color: #000000
         margin-bottom:40px;
     } 
     .feedback_row{
-        /* margin-top: 30px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between; */
         gap: 10px;
     }
     
@@ -73,9 +65,6 @@ color: #000000
 .feedback_column{
     width: 100%;
 }
-/* .feedback_column_wide{
-    width: 100%;
-} */
 
 .feedback_title{
     margin-bottom: 10px;
