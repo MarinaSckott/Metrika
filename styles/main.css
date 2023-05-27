@@ -87,7 +87,6 @@ h2 {
 .about {
     color: #121212;
     width: 1048px;
-    /* height: 366px; */
     font-size: 45px;
     line-height: 62px;
     margin-bottom: 28px;
@@ -99,7 +98,6 @@ h2 {
     border: 1px solid #ad1818;
     background-color: #ad1818;
     width: 255px;
-    /* height: 67px; */
     border-radius: 5px;
     font-size: 20px;
     text-align: center;
