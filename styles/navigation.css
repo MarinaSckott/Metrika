@@ -25,7 +25,7 @@
     text-decoration: none;
 }
 
-.nav__link:hover,.footer__link:hover {
+.nav__link:hover {
     opacity: 0.5;
     text-decoration: underline;
 }
